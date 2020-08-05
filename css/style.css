@@ -1,0 +1,37 @@
+body, html {
+    margin: 30px;
+}
+
+.room{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    max-width: 655px;
+    justify-self: center;
+    align-self: center;
+    }
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+.text-num {
+    text-align: center;
+}   
+
+
+.room div{
+    border: 1px solid #D65DB1;
+    height: 80px;
+    width: 80px;
+}
+
+.tile{
+    background-color: #FF6F91;
+}
+
+.dirty{
+    background-color:#FFC75F;
+}
